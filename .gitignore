@@ -1,3 +1,10 @@
 .venv/
-.env/
+.env
 config/
+*-key.json
+
+target/
+dbt_packages/
+logs/
+
+.gitignore

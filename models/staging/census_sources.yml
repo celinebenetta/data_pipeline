@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: public_census
+    schema: census_bureau_international
+    database: bigquery-public-data
+    tables:
+      - name: age_specific_fertility_rates
+      - name: birth_death_growth_rates
+      - name: country_names_area
+      - name: midyear_population
+      - name: midyear_population_5yr_age_sex
+      - name: midyear_population_age_sex
+      - name: midyear_population_agespecific
+      - name: mortality_life_expectancy
